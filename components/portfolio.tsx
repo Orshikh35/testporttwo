@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ChevronDown, Github, Linkedin, Mail, FileText } from 'lucide-react'
+import { ChevronDown, Github, Linkedin, Mail} from 'lucide-react'
 import { Button } from "@/components/ui/button"
 
 const sections = [
@@ -143,9 +143,9 @@ export function PortfolioComponent() {
             <div className="max-w-2xl text-center">
               <h2 className="text-3xl font-light mb-6 text-teal-400">About Me</h2>
               <p className="text-lg mb-6">
-                I'm a passionate frontend developer with 5+ years of experience in creating
+                Im a passionate frontend developer with 5+ years of experience in creating
                 responsive and user-friendly web applications. My expertise lies in React,
-                TypeScript, and Next.js, and I'm always eager to learn new technologies.
+                TypeScript, and Next.js, and Im always eager to learn new technologies.
               </p>
               <Button
                 variant="outline"
